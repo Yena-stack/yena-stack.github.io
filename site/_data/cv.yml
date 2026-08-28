@@ -1,0 +1,151 @@
+cv:
+  name: Yena Choi
+  label: M.S. Student, Department of Artificial Intelligence
+  email: yenachoi@hanyang.ac.kr
+  location: Seoul, South Korea
+  image: ""
+  summary: M.S. student in the Department of Artificial Intelligence at Hanyang University (HCC Lab, advised by Prof. Kyungsik Han), researching value alignment and bias in LLM-based human simulation.
+
+  social_networks:
+    - network: LinkedIn
+      username: yena-choi-377038226
+    # - network: GitHub
+    #   username: # TODO: add once you've set github_username in _data/socials.yml
+
+  address:
+    street: 521, Fusion Technology Center, Hanyang University
+    city: Seoul
+    region: ""
+    postalCode: "04763"
+    countryCode: KR
+
+  sections:
+    Education:
+      - institution: Hanyang University
+        location: Seoul, Korea
+        area: Artificial Intelligence
+        studyType: M.S. Student
+        start_date: 2025-03
+        end_date: present
+        highlights:
+          - "Advisor: Prof. Kyungsik Han"
+
+      - institution: DePauw University
+        location: Indiana, United States
+        area: Computer Science
+        studyType: Bachelor of Arts
+        start_date: 2021-08
+        end_date: 2024-12
+
+    # NOTE: this theme only gives rich formatting (date badge, location, highlights) to a
+    # section literally named "Experience" (it merges in "Volunteer" too, sorted by date).
+    # Any other section name falls back to a bare-bones renderer, so all research/work/
+    # teaching/leadership entries below are kept under this one "Experience" list.
+    Experience:
+      - company: Aiffel (MODU Labs)
+        position: Research Assistant
+        location: Seoul, Korea
+        start_date: 2023-08
+        end_date: 2024-01
+        highlights:
+          - Built a model to find road areas for autonomous vehicles using semantic segmentation
+          - Built an attentional seq2seq model to implement a news summary generator
+
+      - company: DePauw University, ITAP Program
+        position: Apprentice / Teaching & Lab Assistant
+        location: Indiana, United States
+        start_date: 2023-08
+        end_date: 2024-01
+        highlights:
+          - Apprentice - learned tools for web page development and data visualization
+          - Teaching Assistant / Lab Assistant - supervised students during exams and project sessions
+
+      - company: DePauw University, Department of Computer Science
+        position: "Undergraduate Researcher (Advisor: Prof. Steven Bogaerts)"
+        location: Indiana, United States
+        start_date: 2022-12
+        end_date: 2023-06
+        highlights:
+          - "Senior project: built a YOLOv5-based object detector"
+
+      - company: DePauw University
+        position: Teaching Assistant (TA), CSC 121 Introduction to Computer Science
+        location: Indiana, United States
+        start_date: 2022-01
+        end_date: 2023-05
+
+      - company: DePauw University
+        position: Teaching Assistant (TA), CSC 122 Data Science
+        location: Indiana, United States
+        start_date: 2022-01
+        end_date: 2023-05
+
+      - company: International Computer Science Association, DePauw University
+        position: Member
+        location: Indiana, United States
+        start_date: 2021-08
+        end_date: 2023-05
+        highlights:
+          - Weekly gathered to code and discuss projects
+          - Discussed issues and news in the CS field internationally
+
+      - company: DePauw University Orchestra
+        position: Second Violist
+        location: Indiana, United States
+        start_date: 2021-08
+        end_date: 2023-05
+        highlights:
+          - Actively participated in weekly practices and monthly performances
+
+      - company: Suimtech Inc.
+        position: Part-time Intern
+        location: Seongnam, South Korea
+        start_date: 2021-10
+        end_date: 2021-11
+        highlights:
+          - Gave presentations about big data
+          - Used data crawling techniques to collect and research emerging products
+          - Completed an AI education course run by KAIST's Seongnam ICT Lab
+
+    Awards:
+      - title: Merit Scholarship
+        awarder: DePauw University
+        date: 2021-08
+        summary: "Annual amount of $34,000"
+
+    Publications:
+      - title: "Auditing Ethical Value Misalignment in LLM-Based Human Simulation: A Dual-Metric Cross-National Study with Persona Injection"
+        authors:
+          - Yena Choi
+          - Kyungsik Han
+        publisher: "CIKM 2026"
+        releaseDate: 2026-11-01
+        url: https://doi.org/10.1145/3799682.3840045
+
+      - title: "Topic-Specific Bias and Inter-Model Differences in Large Language Models"
+        authors:
+          - Yena Choi
+          - Kyungsik Han
+        publisher: "HCIK 2026"
+        releaseDate: 2026-01-01
+
+      - title: "An LLM-Based Safety Evaluation Framework for Autonomous Driving Plans"
+        authors:
+          - Myungjin Kim
+          - Yena Choi
+          - Kyungsik Han
+        publisher: "HCIK 2026"
+        releaseDate: 2026-01-01
+
+    Skills:
+      - name: Languages
+        level: ""
+        keywords: "Python, SQL, C/C++"
+
+      - name: Frameworks
+        level: ""
+        keywords: "PyTorch, TensorFlow, Keras"
+
+      - name: Tools & Environments
+        level: ""
+        keywords: "Linux, Bash, Git"
